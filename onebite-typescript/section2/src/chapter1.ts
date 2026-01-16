@@ -1,0 +1,37 @@
+// number
+let num1: number = 123;
+let num2: number = -123;
+let num3: number = 0.123;
+let num4: number = -0.123;
+let num5: number = Infinity;
+let num6: number = -Infinity;
+let num7: number = NaN;
+
+// string
+let st1: string = 'hello';
+let str2: string = 'hello';
+`hello`;
+`hello ${num1}`;
+
+// boolean
+let bool1: boolean = true;
+let bool2: boolean = false;
+
+// null
+let null1: null = null;
+
+// undefined
+let unde1: undefined = undefined;
+
+// let numA: number = null;
+// -> number에 넣을 값이 도저히 떠오르지 않는다면 null을 넣을 수 있는데
+// 원래는 안되지만 tsconfig.json에 strictNullChecks에 false를 주면
+// 가능하다! = 쓸 일 없겠죠~ 메이비
+
+// 리터럴 타입 (값 자체가 타입이되는)
+let numA: 10 = 10;
+// numA = 12; 안됨.
+
+let strA: 'hello' = 'hello';
+
+let boolA: true = true;
