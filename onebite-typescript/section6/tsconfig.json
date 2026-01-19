@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "moduleDetection": "force",
+    "allowJs": true
+  },
+  "ts-node": {
+    "esm": true
+  },
+  "include": ["src"]
+}
